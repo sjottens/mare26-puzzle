@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tutorial-1",
+    "name": { "en": "Plus", "nl": "Plus" },
+    "pack": "tutorial",
+    "size": 3,
+    "rows": [".#.", "###", ".#."],
+    "palette": ["#8fc7ff"]
+  },
+  {
+    "id": "tutorial-2",
+    "name": { "en": "Heart", "nl": "Hart" },
+    "pack": "tutorial",
+    "size": 5,
+    "rows": [".#.#.", "#####", "#####", ".###.", "..#.."],
+    "palette": ["#ff8fa3"]
+  },
+  {
+    "id": "tutorial-3",
+    "name": { "en": "Tulip", "nl": "Tulp" },
+    "pack": "tutorial",
+    "size": 5,
+    "rows": ["#.#.#", "#####", ".###.", "..#..", "..#.."],
+    "palette": ["#ff7a90"]
+  }
+]
