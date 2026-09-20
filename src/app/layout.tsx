@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css";
 import { PwaRegister } from "@/ui/PwaRegister";
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col">
         {children}
         <PwaRegister />
+        <Analytics />
       </body>
     </html>
   );
